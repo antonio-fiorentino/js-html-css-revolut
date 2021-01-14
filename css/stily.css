@@ -5,6 +5,19 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.grey{
+  color: grey;
+}
+
+li{
+  color:black;
+  list-style: none;
+}
+
+ul{
+  display: inline-block;
+}
+
 .container{
   margin:auto;
   width: 1400px;
