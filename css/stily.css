@@ -7,7 +7,7 @@
 
 .container{
   margin:auto;
-  width: 1200px;
+  width: 1400px;
   margin-top: 50px;
 }
 
@@ -22,18 +22,11 @@ nav{
 
 .left{
   height: 100px;
-  width: 350px;
+  width: 400px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 18px;
-}
-
-.right{
-  background-color: blue;
-  height: 100px;
-  width: 550px;
-  line-height: 100px;
 }
 
 .logo img{
@@ -46,4 +39,25 @@ nav{
 }
 .personale:hover{
   font-weight: bold;
+}
+
+.right{
+  height: 100px;
+  width: 700px;
+  line-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  color: grey;
+}
+
+button{
+  height: 50px;
+  width: 100px;
+  background-color: black;
+  border-radius: 15px;
+  color: white;
+  font-size: 15px;
+  border: none;
 }
