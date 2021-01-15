@@ -85,9 +85,12 @@ button{
   background-color: #fff;
   font-size: 12px;
   justify-content: space-between;
-  display: flex;
   position: absolute;
   top: 125px;
   right: 600px;
   padding: 15px 15px;
+}
+
+.dropdown.active{
+  display: flex;
 }
